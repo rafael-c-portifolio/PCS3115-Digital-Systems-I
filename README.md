@@ -1,7 +1,9 @@
 Basic Stack Processor in VHDL - PCS3115 Digital Systems I
+
 This project was completed as part of the PCS3115 - Digital Systems I course. The main objective was to design and implement the VHDL code for all key components of a basic stack processor. This included developing the Arithmetic Logic Unit (ALU), Random Access Memory (RAM), Read-Only Memory (ROM), assembly instructions, data flow, and the register banks.
 
 Project Overview
+
 The project focused on designing a basic stack processor using VHDL (VHSIC Hardware Description Language). The design encompassed all core components of a stack processor architecture, with the aim of understanding and applying digital systems design principles.
 
 Components Implemented:
@@ -11,7 +13,9 @@ ROM (Read-Only Memory): Held the processor's instructions.
 Assembly Instructions: Developed custom assembly language instructions for the processor.
 Data Flow and Control Unit: Managed the data flow between components and directed the processor's operations.
 Register Banks: Included a stack-based register system for handling data during execution.
+
 Design Process
+
 1. ALU Design
 The ALU was designed to perform basic arithmetic and logical operations, such as addition, subtraction, AND, OR, and XOR. The VHDL code was written to handle different operation codes (opcodes) that were fed from the ROM and controlled by the processor's instruction set.
 2. RAM and ROM Design
@@ -23,7 +27,9 @@ Custom assembly instructions were developed for the processor. These included ba
 The data flow within the processor was carefully designed to ensure efficient communication between components. The control unit managed the instruction fetch, decode, and execution cycle, ensuring the ALU, RAM, ROM, and registers interacted correctly.
 5. Register Banks
 A stack-based register bank was implemented to handle data storage during processing. The push and pop operations allowed for data to be easily manipulated on the stack, in line with stack processor architecture principles.
+
 Tools and Methodology
+
 VHDL: All components were designed and implemented in VHDL, a hardware description language used for designing and simulating digital systems.
 Simulation Tools: We used ModelSim to simulate the processor components and verify the correct operation of the ALU, RAM, ROM, and data flow.
 FPGA Implementation (Optional): While not mandatory for this project, the VHDL code could be synthesized onto an FPGA to create a working physical model of the processor.
